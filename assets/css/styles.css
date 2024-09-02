@@ -1,0 +1,108 @@
+body {
+    background-image: url('/assets/imgs/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+nav {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    width: Max(70rem, 100%);
+    background-color: #000;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: right; */
+
+    a {
+        height: 100%;
+        width: 20%;
+        min-width: min-content;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        font-weight: lighter;
+    }
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    font-weight: lighter;
+    width: 100%;
+    a {
+        color: #fff;
+        text-decoration: none;
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-text {
+    margin: auto;
+}
+
+.home-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/assets/imgs/home_banner.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+.content-with-margins {
+    a {
+        color: #fff;
+    }
+    margin: 0% 10%;
+    div {
+        display: flex;
+        align-items: center;
+        img {
+            width: 40%
+        }
+        p {
+            display: inline-block;
+            line-height: 1.5;
+            vertical-align: middle;
+            padding-left: 10%;
+            width: 40%;
+        }
+        a {
+            background-color: #ffd100;
+            color: #000;
+            border: 1px solid #aaa;
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #79681a;
+            color: #fff
+        }
+    }
+}
+
+.line {
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #fff;
+    align-items: left;
+}
