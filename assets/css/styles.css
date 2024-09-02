@@ -1,5 +1,5 @@
 body {
-    background-image: url('{{ site.baseurl }}/assets/imgs/background.png');
+    background-image: url('/the-website/assets/imgs/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
@@ -59,7 +59,7 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('the-website/assets/imgs/home_banner.png'); /* TODO: CHANGE LATER */
+    background-image: url('/the-website/assets/imgs/home_banner.png'); /* TODO: CHANGE LATER */
     background-size: cover;
     background-position: center;
     color: #fff;
