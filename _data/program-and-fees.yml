@@ -1,11 +1,11 @@
-image1: /assets/imgs/DSC_0096_JPG.png
+image1: {{ site.baseurl }}/assets/imgs/DSC_0096_JPG.png
 text1: >-
   One-term Introductory Course ~ $84 
   <br><span class="line"></span><br>
   Mondays 5:00pm - 7:30pm
 betweentext1: >-
   Beginners meet once a week for an introductory program geared towards people with no experience. There are 3 disciplines of weapons but we begin with foil to better teach basic techniques such as point control and priority. We focus on footwork, simple attacks/defenses, and proper form throughout the course. This culminates in a friendly end-of-term tournament before trying other disciplines (sabre, epee) to end off the semester.
-image2: /assets/imgs/easter_egg.png
+image2: {{ site.baseurl }}/assets/imgs/easter_egg.png
 text2: >-
   General Membership (BYO equipment) ~ $147/term
   <br>
@@ -18,7 +18,7 @@ betweentext2: >-
   This membership is for those who have already taken the introductory course or can perform basic drills with minimal guidance. We meet for three hours twice a week throughout the term, with exceptions for special events hosted by the university such as large competitions, exams, and convocation.
   <br><br>
   Everybody begins with a basic warm-up and half an hour of general footwork. We then split by weapon type into a rotation of focuses for an hour which consists of either technical drills, physical training, or structured bouting. Every session then ends with open fencing to hone your skills or practice new techniques.
-image3: /assets/imgs/2023 Varsity.png
+image3: {{ site.baseurl }}/assets/imgs/2023 Varsity.png
 text3: >-
   Varsity ~ invite only
   <br><span class="line"></span><br>
