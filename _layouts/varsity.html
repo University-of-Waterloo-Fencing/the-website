@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="content-with-margins">
+    <h1>Varsity</h1>
+    <p>{{ site.data.varsity.description }}</p>
+        {% for comp in site.data.varsity.events %}
+        <h2>{{ comp.name }}</h2>
+        <div class="img-box-holder">
+            {% for image in comp.images %}
+            <figure class="img-box">
+                <img src="{{ site.baseurl }}/{{ image.img }}"><br>
+                <figcaption>{{ image.caption }}</figcaption>
+            </figure>
+            {% endfor %}
+        </div>
+        {% endfor %}
+</div>

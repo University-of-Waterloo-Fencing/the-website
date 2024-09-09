@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="content-with-margins">
+    <h1>Coaches</h1>
+    {% for coach in site.data.coaches-and-execs.coaches %}
+    <div class="person-block">
+        <p>
+            <u>{{ coach.role }}</u><br>
+            {{ coach.name }} <br><br>
+            {{ coach.description}}
+
+        </p>
+        <img src="{{site.baseurl}}/{{coach.image}}">
+    </div>
+    {% endfor %}
+    <h1>Executives</h1>
+    {% for exec in site.data.coaches-and-execs.execs %}
+    <div class="person-block">
+        <p>
+            <u>{{ exec.role }}</u><br>
+            {{ exec.name }} <br><br>
+            {{ exec.description}}
+
+        </p>
+        <img src="{{site.baseurl}}/{{exec.image}}">
+    </div>
+    {% endfor %}
+</div>

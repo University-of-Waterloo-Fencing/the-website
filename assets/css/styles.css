@@ -50,6 +50,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
 .nav-text {
     margin: auto;
 }
@@ -86,17 +91,6 @@ h1 {
             padding-left: 10%;
             width: 40%;
         }
-        a {
-            background-color: #ffd100;
-            color: #000;
-            border: 1px solid #aaa;
-            padding: 0.5rem;
-            text-decoration: none;
-        }
-        a:hover {
-            background-color: #79681a;
-            color: #fff
-        }
     }
 }
 
@@ -105,4 +99,48 @@ h1 {
     display: inline-block;
     border: 1px solid #fff;
     align-items: left;
+}
+
+.img-box-holder {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    width: 25% !important;
+    display: inline-block;
+    
+    img {
+        width: 100% !important;
+        display: block;
+    }
+    figcaption {
+        text-align: center;
+    }
+
+}
+
+.random-extra-space {
+    width: 50%;
+}
+
+.yellow-button {
+    background-color: #ffd100;
+    color: #000;
+    border: 1px solid #aaa;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.yellow-button:hover {
+    background-color: #79681a;
+    color: #fff
+}
+
+.person-block {
+    p {
+        padding-right: 5%;
+    }
+    padding-bottom: 5%;
 }

@@ -1,0 +1,62 @@
+coaches:
+  - role: Head Coach
+    name: Paul Godin
+    image: /assets/imgs/team/paul.png
+    description: >-
+       Paul has been fencing since 2005, with a primary focus on foil. He served as an assistant coach at both the University of Toronto and York University, before becoming the head coach at the University of Waterloo in 2021. Paul also coaches at Excelsior Fencing club and is a member of the OFA coaching committee. Paul has won OUA Men's Fencing Coach of the Year for the 2022-2023 and 2023-2024 seasons.
+  - role: Coach
+    name: Jeremy Wolf
+    image: /assets/imgs/team/jeremy.png
+    description: >-
+      Jeremy has been involved with the University of Waterloo Fencing Club in a variety of roles since 1999. Starting as a foilist, he learned sabre and epee while helping out the club as an executive and later filling in as a coach. More recently, Jeremy focuses on beginner coaching and helping train the competitive sabre fencers.
+execs:
+  - role: President
+    name: Hidde Koerts
+    image: /assets/imgs/team/hidde.png
+    description: >-
+      When and how did you start fencing?<br>
+      When I was 10, I was looking for a new sport. Being captivated by knights at the time, I gave fencing a shot. At my very first practice I realized that it was nothing like swordfighting, but I immediately fell in love with the sport. I have been fencing competitively ever since, and have recently also started coaching.<br><br>
+      Why do you like fencing?<br>
+      I adore the combination of high-speed problem solving with explosive athleticism that fencing provides. The competitive aspect of facing one opponent whom is trying to outsmart your every move is thrilling. And of course it wouldn't be the same without the awesome energy we have within our teams and in the club overall!<br><br>
+      What is your go-to tournament snack?<br>
+      My favourite snacks during tournaments are cashews, bananas, and 'eierkoeken'
+  - role: Vice President
+    name: Luke Chew
+    image: /assets/imgs/team/luke.png
+    description: >-
+      When and how did you start fencing?<br>
+      I started in May 2023 at this very club! I'd heard about it through friends and thought it would be fun to try. After my first session, I knew it was something I wanted to keep doing, and it has now grown into something I'm very passionate about!<br><br>
+      Why do you like fencing?<br>
+      The physicality, speed, bladework, and mind games that go on during a bout – above all, the thrill of a successful counterattack!<br><br>
+      What is your go-to tournament snack?<br>
+      Almonds and oranges
+  - role: Social
+    name: Jeanette Huang
+    image: /assets/imgs/team/jeanette.png
+    description: >-
+      When and how did you start fencing?<br>
+      I started fencing during my senior year of high school. I had just tried an introductory crash course during a summer camp, and wanted to continue once I came home.<br><br>
+      Why do you like fencing?<br>
+      I fence because I really like being challenged both physically and mentally in practice. I've really enjoyed getting to meet new people and have made so many great memories with the team.<br><br>
+      What is your go-to tournament snack?<br>
+      Applesauce pouches and granola bars
+  - role: Treasurer
+    name: Alan Zheng
+    image: /assets/imgs/team/alan.png
+    description: >-
+      When and how did you start fencing?<br>
+      I started fencing in 2014 after my mother heard about it from other parents.<br><br>
+      Why do you like fencing?<br>
+      The strategy and mind games behind the sport make it the most fun game I've ever played.<br><br>
+      What is your go-to tournament snack?<br>
+      Nature Valley peanut granola bar
+  - role: Armourer
+    name: Vivian Dai
+    image: /assets/imgs/team/vivian.png
+    description: >-
+      When and how did you start fencing?<br>
+      2015 at Hua Hua Fencing (with a giant gap, restarted in 2023)<br><br>
+      Why do you like fencing?<br>
+      I like the environment and team at uw + it's a good way to relax from studying.<br><br>
+      What is your go-to tournament snack?<br>
+      Banana/granola bar

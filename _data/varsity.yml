@@ -1,0 +1,29 @@
+description: >- 
+  The University of Waterloo has a varsity fencing team, which competes at several tournaments during the year. We offer preferred acceptance for incoming students, in-season physiotherapy, tutoring, consideration for athletic-specific scholarships, gym locker, and the ability to represent the University of Waterloo at OUA championships.​ To be eligible, an athlete must be a full-time student or on an approved coop term. Selection is based on several factors such as performance at competitions, commitment at practice, and general sportsmanship.
+  <br><br>
+  We have accumulated a long list of achievements thanks to our dedicated fencers. If you have what it takes to be a Waterloo Warrior, let us know you're interested by contacting us to join the Varsity Fencing Team!
+events:
+  - name: Ontario Provincial's 2024
+    images:
+    - img: /assets/imgs/competitions/2024_provincials/mens_saber_2024.png
+      caption: Senior Men's Sabre Gold - Richard Yang<br>Senior Men's Sabre Bronze - Ryoto Miyake
+    - img: /assets/imgs/competitions/2024_provincials/womens_saber_2024.png
+      caption: Senior Women's Sabre Bronze - Jeanette Huang
+    - img: /assets/imgs/competitions/2024_provincials/womens_foil_2024.png
+      caption: Senior Women's Foil T8- Evangeline Dryburgh
+  - name: Mens OUA's 2024
+    images:
+    - img: /assets/imgs/competitions/2024_ouas/2024_mens_foil.png
+      caption: Team Foil Gold - Jiaan Li, James Li, Nolan White-Roy, Hidde Koerts
+    - img: /assets/imgs/competitions/2024_ouas/2024_mens_saber.png
+      caption: Team Sabre Gold - Richard Yang, Simon Li, Ryoto Miyake, Vincent Cho
+    - img: /assets/imgs/competitions/2024_ouas/2024_mens_epee.png
+      caption: Team Epee Silver - Seraphim Jarov, Alan Zheng, James Hong, Hamza Shahzadeh
+    - img: /assets/imgs/competitions/2024_ouas/richard.png
+      caption: Individual Sabre Gold - Richard Yang
+    - img: /assets/imgs/competitions/2024_ouas/banner.png
+      caption: Silver OUA Team Banner
+    - img: /assets/imgs/competitions/2024_ouas/seraphim.png
+      caption: Individual Epee Gold - Seraphim Jarov
+    - img: /assets/imgs/competitions/2024_ouas/paul.png
+      caption: Coach of the Year - Paul Godin
