@@ -1,6 +1,7 @@
 body {
     background-image: url('/the-website/assets/imgs/background.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    min-height: 100vh;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -14,11 +15,11 @@ nav {
     background-color: #000;
     display: flex;
     /* align-items: center; */
-    /* justify-content: right; */
 
     a {
         height: 100%;
         /* width: 20%; */
+        padding-left: 2%;
         min-width: min-content;
         text-decoration: none;
         color: #fff;
@@ -33,9 +34,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    bottom: 0;
     font-weight: lighter;
-    width: 100%;
+    /* width: 100%; */
     a {
         color: #fff;
         text-decoration: none;
@@ -135,6 +135,7 @@ h2 {
 }
 
 .content-with-margins {
+    min-height: 89vh;
     a {
         color: #fff;
     }
