@@ -134,8 +134,11 @@ h2 {
     font-weight: bolder;
 }
 
-.content-with-margins {
+.too-short {
     min-height: 89vh;
+}
+
+.content-with-margins {
     a {
         color: #fff;
     }
