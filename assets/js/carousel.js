@@ -1,3 +1,5 @@
+---
+---
 const PATH = "{{ site.baseurl }}/assets/imgs/carousel/"
 var target = document.getElementById("carousel");
 
