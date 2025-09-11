@@ -7,11 +7,12 @@ layout: default
     <div class="person-block">
         <p>
             <u>{{ coach.role }}</u><br>
-            {{ coach.name }} <br><br>
+            {{ coach.name }} <br>
+            <img class="mobile-only" src="{{site.baseurl}}/{{coach.image}}"><br>
             {{ coach.description}}
 
         </p>
-        <img src="{{site.baseurl}}/{{coach.image}}">
+        <img class="pc-only" src="{{site.baseurl}}/{{coach.image}}">
     </div>
     {% endfor %}
     <h1>Executives</h1>

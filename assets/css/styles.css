@@ -40,29 +40,6 @@ nav a {
     margin-left: auto;
 }
 
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-
-    nav > a.nav-text, .random-extra-space {
-        display: none;
-    }
-
-    nav.open {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav.open > a.nav-text {
-        display: block;
-        width: 100%;
-        margin: 0.5rem 0;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-    }
-}
-
 
 footer {
     background-color: #000;
@@ -243,4 +220,97 @@ h2 {
         padding-right: 5%;
     }
     padding-bottom: 5%;
+}
+
+.mobile-only {
+    display: none !important;
+}
+
+.pc-only {
+    display: inline-block !important;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav > a.nav-text, .random-extra-space {
+        display: none;
+    }
+
+    nav.open {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav.open > a.nav-text {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+
+    .home-banner {
+        font-size: 3rem;
+    }
+    p {
+        font-size: small;
+    }
+
+    .home-programs, .home-faq, .home-varsity {
+        font-size: 1rem;
+    }
+
+    .img-box-holder {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-box {
+        width: 100% !important;
+        display: inline-block;
+        
+        img {
+            width: 100% !important;
+            display: block;
+        }
+        figcaption {
+            text-align: center;
+        }
+    }
+
+    .person-block {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    
+    .person-block p {
+        display: block !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+
+    .person-block img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .mobile-only {
+        display: inline-block !important;
+    }
+
+    .pc-only {
+        display: none !important;
+    }
+
 }
