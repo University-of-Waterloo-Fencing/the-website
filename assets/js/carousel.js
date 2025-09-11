@@ -1,4 +1,6 @@
-const PATH = "/the-website/assets/imgs/carousel/"
+---
+---
+const PATH = "{{ site.baseurl }}/assets/imgs/carousel/"
 var target = document.getElementById("carousel");
 
 const num = 6;

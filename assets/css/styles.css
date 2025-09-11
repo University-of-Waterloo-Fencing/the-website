@@ -1,5 +1,7 @@
+---
+---
 body {
-    background-image: url('/the-website/assets/imgs/background.png');
+    background-image: url('{{ site.baseurl }}/assets/imgs/background.png');
     background-repeat: repeat-y;
     min-height: 100vh;
     background-attachment: fixed;
@@ -14,20 +16,53 @@ nav {
     width: 100%;
     background-color: #000;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+}
 
-    a {
-        height: 100%;
-        /* width: 20%; */
-        padding-left: 2%;
-        min-width: min-content;
-        text-decoration: none;
-        color: #fff;
-        text-align: center;
-        display: flex;
-        font-weight: lighter;
+nav a {
+    height: 100%;
+    padding-left: 2%;
+    min-width: min-content;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    font-weight: lighter;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav > a.nav-text, .random-extra-space {
+        display: none;
+    }
+
+    nav.open {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav.open > a.nav-text {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
     }
 }
+
 
 footer {
     background-color: #000;
@@ -35,7 +70,7 @@ footer {
     text-align: center;
     padding: 1rem;
     font-weight: lighter;
-    /* width: 100%; */
+
     a {
         color: #fff;
         text-decoration: none;
@@ -64,7 +99,7 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('/the-website/assets/imgs/home_banner.png'); /* TODO: CHANGE LATER */
+    background-image: url('{{ site.baseurl }}/assets/imgs/home_banner.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -82,7 +117,7 @@ h2 {
     width: 22vw;
     height: 22vw;
     line-height: 22vw;
-    background-image: url('/the-website/assets/imgs/programs.png'); /* TODO: CHANGE LATER */
+    background-image: url('{{ site.baseurl }}/assets/imgs/programs.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -107,7 +142,7 @@ h2 {
     width: 22vw;
     height: 22vw;
     line-height: 22vw;
-    background-image: url('/the-website/assets/imgs/faq.png'); /* TODO: CHANGE LATER */
+    background-image: url('{{ site.baseurl }}/assets/imgs/faq.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -125,7 +160,7 @@ h2 {
     width: 22vw;
     height: 22vw;
     line-height: 22vw;
-    background-image: url('/the-website/assets/imgs/varsity.png'); /* TODO: CHANGE LATER */
+    background-image: url('{{ site.baseurl }}/assets/imgs/varsity.png');
     background-size: cover;
     background-position: center;
     color: #fff;
