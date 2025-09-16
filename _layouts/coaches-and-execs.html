@@ -20,11 +20,12 @@ layout: default
     <div class="person-block">
         <p>
             <u>{{ exec.role }}</u><br>
-            {{ exec.name }} <br><br>
+            {{ exec.name }} <br>
+            <img class="mobile-only" src="{{site.baseurl}}/{{exec.image}}"><br>
             {{ exec.description}}
 
         </p>
-        <img src="{{site.baseurl}}/{{exec.image}}">
+        <img class="pc-only" src="{{site.baseurl}}/{{exec.image}}">
     </div>
     {% endfor %}
 </div>

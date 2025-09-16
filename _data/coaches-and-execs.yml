@@ -11,52 +11,52 @@ coaches:
       Jeremy has been involved with the University of Waterloo Fencing Club in a variety of roles since 1999. Starting as a foilist, he learned sabre and epee while helping out the club as an executive and later filling in as a coach. More recently, Jeremy focuses on beginner coaching and helping train the competitive sabre fencers.
 execs:
   - role: President
-    name: Lucy An
-    image: /assets/imgs/team/lucy.png
+    name: Zach Goldapple
+    image: /assets/imgs/team/zach.png
     description: >-
       When and how did you start fencing?<br>
-      I discovered the sport through someone I met at an open house in middle school<br><br>
+      I started at a fencing summer camp when I was 10 and I've been hooked ever since<br><br>
       Why do you like fencing?<br>
-      Fencing is always exciting because different opponents have different styles and tactics and you're making a decision every second you're on the piste<br><br>
+      I love how unique you can be as a fencer, there's no singular right style<br><br>
       What is your go-to tournament snack?<br>
-      blueberries 🫐
+      Bananas and white chocolate cliff bars!
   - role: Vice President
+    name: Xander Watt
+    image: /assets/imgs/team/xander.png
+    description: >-
+      When and how did you start fencing?<br>
+      I’ve been fencing since 6th grade, I tried it at a summer camp before starting taking lessons at my local club<br><br>
+      Why do you like fencing?<br>
+      I like fencing because of the community, because it’s a smaller sport everyone is really tight knit<br><br>
+      What is your go-to tournament snack?<br>
+      I always go for a granola bar, it’s portable and filling
+  - role: Social
+    name: Evangeline Dryburgh
+    image: /assets/imgs/team/evangeline.png
+    description: >-
+      When and how did you start fencing?<br>
+      I started fencing when I was 11 years old. I begged my parents to take me fencing because I read the Spiderwick Chronicles which was a fantasy kids series and the older sister fenced and used her sword to kill monsters and I thought that was the coolest thing ever.<br><br>
+      Why do you like fencing?<br>
+      I like fencing for so many reasons but particularly because it is such a mental and physical game. It's you and your opponent trying to outsmart the other for three to nine minutes. I also love becoming closer with so many great people through fencing, I love working and fencing with my teammates and the fencing community in general.<br><br>
+      What is your go-to tournament snack?<br>
+      Homemade banana chocolate chip muffins!
+  - role: Treasurer
+    name: Evan Wang
+    image: /assets/imgs/team/evan.png
+    description: >-
+      When and how did you start fencing?<br>
+      I started fencing in grade 7 at the Canadian Fencing Academy since it seemed like an interesting sport.<br><br>
+      Why do you like fencing?<br>
+      I like fencing because it's a very strategic sport. It's also a good conversation starter since it's so unique.<br><br>
+      What is your go-to tournament snack?<br>
+      Chocolate dipped granola bars
+  - role: Armourer
     name: Vivian Dai
     image: /assets/imgs/team/vivian.png
     description: >-
       When and how did you start fencing?<br>
-      2015 at Hua Hua Fencing (with a giant gap, restarted in 2023)<br><br>
+      I started fencing in 2015 because I thought Percy Jackson was really cool<br><br>
       Why do you like fencing?<br>
       I like the environment and team at uw + it's a good way to relax from studying<br><br>
       What is your go-to tournament snack?<br>
       Banana/granola bar
-  - role: Social
-    name: Alan Zheng
-    image: /assets/imgs/team/alan.png
-    description: >-
-      When and how did you start fencing?<br>
-      I started fencing in grade school when a new fencing club opened near me, and I stuck with it to get in shape<br><br>
-      Why do you like fencing?<br>
-      Fencing is so intricate and so difficult, but the high you get from nailing an action or a timing is unbeatable<br><br>
-      What is your go-to tournament snack?<br>
-      granola bars!
-  - role: Treasurer
-    name: Anthony Pozharskiy
-    image: /assets/imgs/team/anthony.png
-    description: >-
-      When and how did you start fencing?<br>
-      I started fencing in 2013, after watching the London Olympics. It looked like a cool sport that I could try. I stopped fencing in 2018 before returning in 2022.<br><br>
-      Why do you like fencing?<br>
-      I like the constant change of tactics in a bout as both fencers try to win the next point. It also gives me something always to improve and be tested on.<br><br>
-      What is your go-to tournament snack?<br>
-      Apples and granola bars
-  - role: Armourer
-    name: Jiaan Li
-    image: /assets/imgs/team/jiaan.png
-    description: >-
-      When and how did you start fencing?<br>
-      I started fencing when I was 6 because my sister did it. My sister started because she watched the Spiderwick Chronicles and a fencing scene inspired her<br><br>
-      Why do you like fencing?<br>
-      Fencing is a great way to to meet friends and relieve stress. I love going to tournaments because I am able to meet so many different people with a common interest while pushing my body to its limit.<br><br>
-      What is your go-to tournament snack?<br>
-      I have fenced multiple tournaments with only cliff bars and energy drinks
