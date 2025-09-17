@@ -8,11 +8,11 @@ layout: default
         <p>
             <u>{{ coach.role }}</u><br>
             {{ coach.name }} <br>
-            <img class="mobile-only" src="{{site.baseurl}}/{{coach.image}}"><br>
+            <img class="mobile-only" src="{{site.baseurl}}{{coach.image}}"><br>
             {{ coach.description}}
 
         </p>
-        <img class="pc-only" src="{{site.baseurl}}/{{coach.image}}">
+        <img class="pc-only" src="{{site.baseurl}}{{coach.image}}">
     </div>
     {% endfor %}
     <h1>Executives</h1>
@@ -21,11 +21,11 @@ layout: default
         <p>
             <u>{{ exec.role }}</u><br>
             {{ exec.name }} <br>
-            <img class="mobile-only" src="{{site.baseurl}}/{{exec.image}}"><br>
+            <img class="mobile-only" src="{{site.baseurl}}{{exec.image}}"><br>
             {{ exec.description}}
 
         </p>
-        <img class="pc-only" src="{{site.baseurl}}/{{exec.image}}">
+        <img class="pc-only" src="{{site.baseurl}}{{exec.image}}">
     </div>
     {% endfor %}
 </div>

@@ -9,7 +9,7 @@ layout: default
         <div class="img-box-holder">
             {% for image in comp.images %}
             <figure class="img-box">
-                <img src="{{ site.baseurl }}/{{ image.img }}"><br>
+                <img src="{{ site.baseurl }}{{ image.img }}"><br>
                 <figcaption>{{ image.caption }}</figcaption>
             </figure>
             {% endfor %}
