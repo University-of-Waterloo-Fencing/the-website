@@ -22,7 +22,7 @@ title: University of Waterloo Fencing Club
 email: fencing@uwaterloo.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to University of Waterloo Fencing Club! Find information on memberships, schedules, team updates, and more.
-baseurl: "/the-website" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://university-of-waterloo-fencing.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
