@@ -14,9 +14,11 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;
+    white-space: nowrap;
+    padding: 1% 0%;
 }
 
 nav a {
@@ -28,6 +30,16 @@ nav a {
     text-align: center;
     display: flex;
     font-weight: lighter;
+}
+
+nav a img {
+    max-height: 30px;
+    width: auto;
+}
+
+nav a.active {
+    color: #ffd100;           
+    font-weight: bold;
 }
 
 .menu-toggle {
@@ -42,14 +54,13 @@ nav a {
 
 
 footer {
-    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 1rem;
     font-weight: lighter;
 
     a {
-        color: #fff;
+        color: #ffd100;
         text-decoration: none;
         img {
             width: 1.5rem;
@@ -97,6 +108,7 @@ h2 {
     background-image: url('{{ site.baseurl }}/assets/imgs/programs.png');
     background-size: cover;
     background-position: center;
+    border-radius: 2%;
     color: #fff;
     text-align: center;
     font-size: 3rem;
@@ -122,6 +134,7 @@ h2 {
     background-image: url('{{ site.baseurl }}/assets/imgs/faq.png');
     background-size: cover;
     background-position: center;
+    border-radius: 2%;
     color: #fff;
     text-align: center;
     font-size: 3rem;
@@ -140,6 +153,7 @@ h2 {
     background-image: url('{{ site.baseurl }}/assets/imgs/varsity.png');
     background-size: cover;
     background-position: center;
+    border-radius: 2%;
     color: #fff;
     text-align: center;
     font-size: 3rem;
@@ -152,14 +166,16 @@ h2 {
 
 .content-with-margins {
     a {
-        color: #fff;
+        color: #ffd100;
     }
     margin: 0% 10%;
+    padding-bottom: 2%;
     div {
         display: flex;
         align-items: center;
         img {
-            width: 40%
+            width: 40%;
+            border-radius: 2%;
         }
         p {
             display: inline-block;
@@ -169,6 +185,33 @@ h2 {
             width: 40%;
         }
     }
+}
+
+.faq {
+    margin: 0% 10%;
+    align-items: left;
+    p {
+        text-align: left;
+    }
+    h3 {
+        text-align: left;
+        color: #ffd100;
+        margin: 0px;
+        padding-top: 2%;
+        padding-bottom: -1%;
+    }
+    a {
+        color: #ffd100;
+    }
+}
+
+.how-to-join-spacing {
+    gap: 2%;
+}
+
+.align-top-block > div {
+    display: flex;
+    align-items: flex-start; 
 }
 
 .line {
@@ -204,9 +247,9 @@ h2 {
 
 .yellow-button {
     background-color: #ffd100;
-    color: #000;
-    border: 1px solid #aaa;
-    padding: 0.5rem;
+    color: #000 !important;
+    border-radius: 3%;
+    padding: 0.6rem;
     text-decoration: none;
 }
 
@@ -285,7 +328,6 @@ h2 {
     .person-block {
         display: flex;
         flex-direction: column;
-        align-items: stretch;
         text-align: center;
         gap: 1rem;
         width: 100%;
