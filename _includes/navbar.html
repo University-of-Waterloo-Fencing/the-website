@@ -4,7 +4,7 @@
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     {% for subpage in site.data.nav.nav %}
-    <a href="{{ site.baseurl }}{{ subpage.url }}" class="nav-text">{{subpage.title}}</a>
+    <a href="{{ site.baseurl }}{{ subpage.url }}" class="nav-text {% if page.url == subpage.url %}active{% endif %}">{{subpage.title}}</a>
     {% endfor %}
     <div class="random-extra-space"></div>
 </nav>
