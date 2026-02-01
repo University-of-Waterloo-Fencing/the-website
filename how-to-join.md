@@ -7,7 +7,7 @@ permalink: /join
 # How to Join
 Visit the [club membership page](https://warrior.uwaterloo.ca/membership/) on the Warrior Athletics Website. You must be a current student or alumni/employee with a gym membership in order to view this page. 
 
-![club membership screenshot](./assets/imgs/membership.png)
+<!-- ![club membership screenshot](./assets/imgs/membership.png) -->
 
 ## Memberships Available
 We currently offer:
