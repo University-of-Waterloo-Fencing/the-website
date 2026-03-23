@@ -29,7 +29,8 @@ url: "https://university-of-waterloo-fencing.github.io/" # the base hostname & p
 
 # Build settings
 # theme: minima
-# plugins:
+plugins:
+  - jekyll-sitemap
 #   - jekyll-feed
 
 # Exclude from processing.
